@@ -13,10 +13,10 @@
  *
  * @author 46
  */
-public class jj extends javax.swing.JFrame {
+public class Main extends javax.swing.JFrame {
 
     /** Creates new form jj */
-    public jj() {
+    public Main() {
         initComponents();
     }
 
@@ -78,8 +78,6 @@ public class jj extends javax.swing.JFrame {
         jLabel3.setText("USERNAME:");
         jPanel1.add(jLabel3);
         jLabel3.setBounds(70, 140, 70, 20);
-
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\46\\Desktop\\tttt.jpg")); // NOI18N
         jPanel1.add(jLabel1);
         jLabel1.setBounds(0, 0, 400, 300);
 
@@ -112,7 +110,7 @@ public class jj extends javax.swing.JFrame {
     public static void main(String args[]) {
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new jj().setVisible(true);
+                new Main().setVisible(true);
             }
         });
     }

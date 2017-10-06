@@ -105,7 +105,7 @@ public class jj2 extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-       new jj().setVisible(true);
+       new Main().setVisible(true);
        this.setVisible(false);
        try {
             String id = jtxtName.getText().toString();

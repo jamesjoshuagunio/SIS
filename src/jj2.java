@@ -83,8 +83,6 @@ public class jj2 extends javax.swing.JFrame {
         jLabel3.setBounds(100, 180, 80, 20);
         jPanel1.add(jtxtName);
         jtxtName.setBounds(170, 150, 120, 20);
-
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tok.jpg"))); // NOI18N
         jPanel1.add(jLabel1);
         jLabel1.setBounds(-260, -10, 790, 490);
 

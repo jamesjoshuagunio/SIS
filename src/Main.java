@@ -11,7 +11,7 @@
 
 /**
  *
- * @author 46
+ * @author James Joshua Gunio
  */
 public class Main extends javax.swing.JFrame {
 
